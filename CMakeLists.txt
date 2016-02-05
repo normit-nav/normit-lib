@@ -1,5 +1,5 @@
 project(NorMIT)
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.8.12.2)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_INCLUDE_CURRENT_DIR_IN_INTERFACE ON)
@@ -20,6 +20,6 @@ set (NorMIT_LIBRARY_DIRS ${CMAKE_CURRENT_BINARY_DIR})
 #set (NorMIT_LIBRARIES "@NorMIT_LIBRARY@")
 
 configure_file (
-    "${PROJECT_SOURCE_DIR}/CMake/NorMITConfig.cmake.in"
+    "${PROJECT_SOURCE_DIR}/cmake/NorMITConfig.cmake.in"
     "${PROJECT_BINARY_DIR}/NorMITConfig.cmake"
     )
