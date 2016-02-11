@@ -8,10 +8,12 @@
 #ifndef NMEXAMPLECLASS_H_
 #define NMEXAMPLECLASS_H_
 
+#include "normit_export.h"
+
 namespace nm
 {
 
-class ExampleClass
+class NORMIT_EXPORT ExampleClass
 {
 public:
 	ExampleClass();
